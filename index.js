@@ -41,4 +41,3 @@ function removeFirstKitten(){
   let newKittens = kittens.slice(1)
   return newKittens
 };
-
