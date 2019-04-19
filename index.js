@@ -26,3 +26,13 @@ function appendKitten(name){
   let newKittens = [...kittens, name]
   return newKittens
 };
+
+function prependKitten(name){
+  let newKittens = [name, ...kittens]
+  return newKittens
+};
+
+function removeLastKitten(){
+  let newKittens = kittens.slice(0, kittens.length - 1)
+  return newKittens
+};
